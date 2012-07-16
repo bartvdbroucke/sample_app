@@ -9,11 +9,11 @@ gem 'rails', '3.2.6'
 gem 'sqlite3', '1.3.6'
 
 group :development do
-	gem 'rspec-rails', '2.0.1'
+	gem 'rspec-rails', '2.11.0' #oorspronkelijk was dit 2.0.1, typ in het gitbash venster "bundle update" zonder accentjes.
 end
 
 group :test do
-	gem 'rspec', '2.0.1'
+	gem 'rspec', '2.11.0' #oorspronkelijk was dit 2.0.1, typ in het gitbash venster "bundle update" zonder accentjes.
 	gem 'webrat', '0.7.1'
 end
 
