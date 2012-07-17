@@ -10,6 +10,7 @@ gem 'sqlite3', '1.3.6'
 
 group :development do
 	gem 'rspec-rails', '2.11.0' #oorspronkelijk was dit 2.0.1, typ in het gitbash venster "bundle update" zonder accentjes.
+	gem 'annotate', '~> 2.4.1.beta', group: :development
 end
 
 group :test do
