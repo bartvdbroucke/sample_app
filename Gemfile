@@ -9,10 +9,12 @@ gem 'rails', '3.2.6'
 gem 'sqlite3', '1.3.6'
 
 gem 'gravatar_image_tag', '0.1.0'
+gem 'will_paginate', '3.0.3'
 
 group :development do
 	gem 'rspec-rails', '2.11.0' #oorspronkelijk was dit 2.0.1, typ in het gitbash venster "bundle update" zonder accentjes.
 	gem 'annotate', '~> 2.4.1.beta', group: :development
+	gem 'faker', '0.3.1'
 end
 
 group :test do
